@@ -14,7 +14,7 @@ App.use(Express.static("Scripts"))
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '443151Ch', // replace with your root password
+    password: "password", // replace with your root password
     database: 'notesapp'  // we'll create this next
 })
 
